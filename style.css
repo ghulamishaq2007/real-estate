@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(181, 141, 218);
+}
+#inbox{
+    
+  
+    color: black;
+    margin: 50px;
+}
+#nav {
+    height: 60px;
+    width: 100%;
+    background-color:#f0f0f0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav :hover{
+    color: rgb(101, 136, 233);
+    transform:all 20s ;
+}
+
+#para {
+    color: rgb(181, 141, 218);
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+ul{
+   display: flex;
+
+padding-right: 200px;
+    list-style: none;
+  justify-content: center;
+    gap: 40px;
+  
+}
+ul :hover{
+    color: rgb(255, 255, 255);
+    transform: all 10s 0s;
+}
+
+.colour{
+    color: #f0f0f0;
+}
+
+
+
+
+img{
+    height: 200px;
+    width: 287.5px;
+    
+    }
+.card{
+    position: relative;
+    left: 500px;
+    width: 325;
+    border-radius: 10PX;
+    overflow: hidden; 
+    background-color: #f0f0f0;
+    box-shadow: 10px 20px 20px rgb(19, 204, 127); 
+    text-align: center;}
+   
+   
+    .cantaner{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      margin-top: 100px; 
+    } 
+button{
+    background-color: rgb(8, 196, 243);
+
+
+}
+BUTTON:hover{
+    background-color: rgb(211, 151, 72);
+   
+    color: rgb(8, 196, 243);
+}
+
+
+#IMG{
+    /* height: 200px; */
+    width: 287.5px;
+}
+.box{
+    
+    position: relative;
+    /* overflow: hidden; */
+    bottom: 900px;
+    left: 100px;
+   border-radius: 9px;
+    background-color: #f0f0f0;
+    box-shadow: 10px 20px 20px rgb(19, 204, 127); 
+    text-align: center;
+ }
+ .class{
+    position: relative;
+    /* overflow: hidden; */
+    bottom: 1710px;
+    left: 900px;
+   border-radius: 9px;
+    background-color: #f0f0f0;
+    box-shadow: 10px 20px 20px rgb(19, 204, 127); 
+    text-align: center;
+
+
+
+ }
+ .ishaq{
+     width: 10px;
+    position: absolute;
+    left: 90px;
+   image-resolution: 300%;
+}
+
+
+

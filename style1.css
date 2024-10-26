@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(181, 141, 218);}
+
+
+
+
+#nav {
+    height: 60px;
+    width: 100%;
+    background-color:#f0f0f0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#para {
+    color: rgb(181, 141, 218);
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+ul{
+   display: flex;
+
+padding-right: 200px;
+    list-style: none;
+  justify-content: center;
+    gap: 40px;
+  
+}
+ul :hover{
+    color: rgb(255, 255, 255);
+    transform: all 10s caus 0s;
+}
